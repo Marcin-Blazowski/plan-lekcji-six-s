@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plan lekcji</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.4rem; color: #333; }
+    .fetch-time { font-size: 0.85rem; color: #555; margin: 0.25rem 0 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; border-bottom: 2px solid #ccc; padding-bottom: 4px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
+    th, td { text-align: left; padding: 6px 10px; border: 1px solid #ddd; font-size: 0.9rem; }
+    th { background: #f5f5f5; }
+    tr.canceled td { background: #fdecea; color: #b71c1c; text-decoration: line-through; }
+    tr.substitution td { background: #fff8e1; color: #5d4037; }
+    td.empty { color: #888; font-style: italic; }
+    small { color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Plan lekcji — dziś i jutro</h1>
+  <p class="fetch-time">Dane pobrane z Librus Synergia: 24 kwietnia 2026, godz. 17:12 (UTC)</p>
+  
+    <section>
+      <h2>Piątek, 2026-04-24</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th><th>Godzina</th><th>Przedmiot</th><th>Nauczyciel</th><th>Sala</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class=""><td>1</td><td>08:20–09:05</td><td>godzina wychowawcza</td><td>A.S.</td><td>22</td></tr>
+<tr class=""><td>2</td><td>09:10–09:55</td><td>Język polski</td><td>P.O.</td><td>21</td></tr>
+<tr class=""><td>3</td><td>10:10–10:55</td><td>Geografia</td><td>J.F.</td><td>17</td></tr>
+<tr class=""><td>4</td><td>11:05–11:50</td><td>Muzyka</td><td>Irmina Zakowicz-Çelik</td><td>16</td></tr>
+<tr class=""><td>5</td><td>12:00–12:45</td><td>zajęcia sportowe</td><td>A.K.</td><td>duża sala gimnastyczna 2</td></tr>
+<tr class=""><td>6</td><td>13:00–13:45</td><td>zajęcia sportowe</td><td>A.K.</td><td>duża sala gimnastyczna 2</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Sobota, 2026-04-25</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th><th>Godzina</th><th>Przedmiot</th><th>Nauczyciel</th><th>Sala</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="5" class="empty">Brak lekcji</td></tr>
+        </tbody>
+      </table>
+    </section>
+</body>
+</html>
